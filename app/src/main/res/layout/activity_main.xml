@@ -24,7 +24,7 @@
                 android:layout_weight="0.1"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="שם האפליקציה"
+                android:text="OnlineSitter"
                 android:background="@color/pinkRose"
                 android:textSize="70px" />
         </LinearLayout>
