@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkRose"
+    tools:context=".Fragments.detailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70px"
+            android:gravity="center"
+            android:visibility="visible"
+            android:text="פרטים" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="שם פרטי" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="שם משפחה" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="מיקום" />
+
+        <TextView
+            android:id="@+id/TextPhone2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="מספר פלאפון"/>
+
+        <TextView
+            android:id="@+id/TextEmailAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:inputType="textEmailAddress"
+            android:text="אימייל"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="קישור לעמוד פיסבוק" />
+
+        <TextView
+            android:id="@+id/aboutme2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="כמה מילים עליי"/>
+
+    </LinearLayout>
+
+</FrameLayout>

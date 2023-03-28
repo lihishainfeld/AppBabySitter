@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkRose"
+    tools:context=".Fragments.signInFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/signinUserName"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@color/whiteYellow"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:hint="אימייל"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@color/whiteYellow"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:hint="סיסמא"
+            android:maxLength="10"
+            android:inputType="textPassword" />
+
+
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:text="כניסה"
+            android:onClick="funcSignIn"
+            android:textSize="60px" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

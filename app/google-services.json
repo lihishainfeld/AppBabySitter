@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "132976778149",
+    "firebase_url": "https://appbabysitter-296fa-default-rtdb.firebaseio.com",
+    "project_id": "appbabysitter-296fa",
+    "storage_bucket": "appbabysitter-296fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132976778149:android:5e76b5837886313f60664c",
+        "android_client_info": {
+          "package_name": "com.example.newbabysisterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132976778149-29ieut6k2ct13dtqfunllv6os6frle39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJckfTvZBOKK6so-_t_JZMaw80rJVDBFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132976778149-29ieut6k2ct13dtqfunllv6os6frle39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

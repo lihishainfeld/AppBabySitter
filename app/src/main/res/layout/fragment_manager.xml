@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkRose"
+    tools:context=".Fragments.managerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70px"
+            android:gravity="center"
+            android:visibility="visible"
+            android:text="עמוד מנהל" />
+
+        <TextView
+            android:id="@+id/privateNameManagerPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="שם פרטי" />
+
+        <TextView
+            android:id="@+id/familyNameManagerPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="שם משפחה" />
+
+        <TextView
+            android:id="@+id/addressManagerPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="מיקום" />
+
+        <TextView
+            android:id="@+id/phoneManagerPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="מספר פלאפון"/>
+
+        <TextView
+            android:id="@+id/TextEmailAddressManagerPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:inputType="textEmailAddress"
+            android:text="אימייל"/>
+
+        <TextView
+            android:id="@+id/facebookLinkManagerPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="קישור לעמוד פיסבוק" />
+
+        <TextView
+            android:id="@+id/aboutmeManagerPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"
+            android:text="כמה מילים עליי"/>
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:background="@color/whiteYellow"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/approveButton"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:text="אישור"
+                android:textSize="40px" />
+            <Button
+                android:id="@+id/declineButton"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:text="דחייה"
+                android:textSize="40px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
